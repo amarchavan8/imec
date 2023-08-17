@@ -1,6 +1,6 @@
 # WESAD Dataset Preprocessing
 
-This repository contains code for preprocessing the WESAD (Wearable Stress and Affect Detection) dataset. The dataset consists of physiological and motion sensor data collected from wearable devices.
+The WESAD dataset contains physiological and motion sensor data collected from wearable devices. The preprocessing script extracts relevant signals, filters outliers using interquartile range, and normalizes the data.
 
 
 ## Instructions
@@ -20,7 +20,6 @@ This repository contains code for preprocessing the WESAD (Wearable Stress and A
 
 Due to limited resource access - Trial version of Azure data bricks, facing issue while adding notebook in data pipline.
 
-## About the Dataset
 
-The WESAD dataset contains physiological and motion sensor data collected from wearable devices. The preprocessing script extracts relevant signals, filters outliers using interquartile range, and normalizes the data.
+
 
