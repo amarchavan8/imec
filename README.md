@@ -5,13 +5,20 @@ This repository contains code for preprocessing the WESAD (Wearable Stress and A
 
 ## Instructions
 
-1. Set the `data_set` variable in the `WESAD.ipynb` script to the correct path to the dataset.
+1. Set the `data_set` variable in the `WESAD.ipynb` file to the correct path to the dataset.
 2. Run the `WESAD.ipynb` script to preprocess the data for each subject ID.
 5. The preprocessed data will be stored as a list of DataFrames.
 
+## Details
+
+1. Uploaded the data in Azure data lake as blob containers.
+2. Created the Azure databricks to run the python code.
+3. Created data preprocess funtion to load pickle file, extract singnals from the data, finding interquantile range to normalise the data for the features.
+4. Next step to store the data in the storage for data scientist for feature creation.
+
 ## Note
 
-Couldn't append all the subject id's due to limited resource access - Trial version of Azure. 
+Due to limited resource access - Trial version of Azure data bricks, facing issue while adding notebook in data pipline.
 
 ## About the Dataset
 
