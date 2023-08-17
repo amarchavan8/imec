@@ -1,0 +1,9 @@
+{
+	"name": "amartestenvironment25262",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "93708643-56d7-4559-b50f-6a7ffc134b36",
+		"tenantId": "3ca69609-49f3-4285-90ff-9afc63b68348"
+	}
+}
